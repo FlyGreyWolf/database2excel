@@ -1,11 +1,18 @@
 # database2excel
 数据库表导出excel表格脚本
 
-# 安装程序运行所需要的包
-方法1：直接通过requirement.txt安装
-pip3 install -r requirement.txt
+# 环境
+数据库管理系统：MySQL
+Python版本：python 3.x
 
-方法2：自行使用pip安装
+# 安装程序运行所需要的包
+因为使用的包只有两个，懒得生成requirements.txt文件，所以请大家自行使用pip安装
+使用以下两个包即可：
+pymysql
+xlsxwriter
+安装以上两个包
+pip3 install pymysql
+pip3 install xlsxwriter
 
 # 运行脚本
 通过database2excel(ip, user, psw, database, table_name)该函数直接执行即可
