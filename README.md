@@ -8,7 +8,7 @@ pip3 install -r requirement.txt
 方法2：自行使用pip安装
 
 # 运行脚本
-1.通过database2excel(ip, user, psw, database, table_name)该函数直接执行即可
+通过database2excel(ip, user, psw, database, table_name)该函数直接执行即可
 
 # 参数说明
 ip:数据库管理系统所在的ip地址
