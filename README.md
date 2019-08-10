@@ -2,7 +2,7 @@
 数据库表导出excel表格脚本
 
 # 环境
-数据库管理系统：MySQL
+数据库管理系统：MySQL  
 Python版本：python 3.x
 
 # 安装程序运行所需要的包
